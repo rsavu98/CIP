@@ -1,0 +1,4 @@
+def find_sequence(txt):
+    if re.search('^[a-z]+_[a-z]+$', str(txt)):
+        return 'Exact sequence is found: ' + txt
+    return 'There\'s no exact sequence.'
